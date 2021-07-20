@@ -11,10 +11,11 @@ phases:
     commands:
       - echo At build step
       - echo Build started on `date`
-      - mvn install
+      - mvn clean install
   post_build:
     commands:
       - echo Build completed on `date`
 artifacts:
   files:
     - target/AwsPipeTest2-0.0.1-SNAPSHOT.jar
+  discard-paths: yes
