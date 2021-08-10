@@ -17,7 +17,7 @@ public class controller {
     }
     @GetMapping(path="/tea")
     public ResponseEntity<String> tea(){
-        return new ResponseEntity<>("Soooo.... is this gonna work?... if yes, react-pipe, then break", HttpStatus.I_AM_A_TEAPOT);
+        return new ResponseEntity<>("Soooo.... I have changed this a tiny git to see if I can push", HttpStatus.I_AM_A_TEAPOT);
     }
 
 }
