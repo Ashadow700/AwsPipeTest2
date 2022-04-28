@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh 'echo "at delivery step"'
+                sh './myDeliver.sh'
             }
         }
     }
