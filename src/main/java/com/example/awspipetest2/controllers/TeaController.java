@@ -23,7 +23,7 @@ public class TeaController {
 
     @GetMapping
     public ResponseEntity<String> tea(){
-        return new ResponseEntity<>("Soooo.... I have changed this a tiny git to see if I can push", HttpStatus.I_AM_A_TEAPOT);
+        return new ResponseEntity<>("Happy catgirl with excalibur ^_^", HttpStatus.I_AM_A_TEAPOT);
     }
 
 
